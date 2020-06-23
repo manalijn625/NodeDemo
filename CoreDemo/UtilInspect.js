@@ -12,9 +12,9 @@ class Foo {
  var d= util.inspect(new Foo()); // 'Foo [bar] {}'
  var e=util.inspect(new Bar()); // 'Bar {}'
  var f=util.inspect(baz);       // '[foo] {}'
-  //console.log(d);
-  //console.log(e);
-  //console.log(f);
+  console.log(d);
+  console.log(e);
+  console.log(f);
   //============
   const { inspect } = require('util');
   const obj = {};
